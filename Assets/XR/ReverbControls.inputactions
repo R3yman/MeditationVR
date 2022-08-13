@@ -1,0 +1,202 @@
+{
+    "name": "ReverbControls",
+    "maps": [
+        {
+            "name": "XRI HMD",
+            "id": "0b0e8872-99f4-4b9f-a3ac-3a7516f05c7d",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "3d9221fd-1353-4436-904a-8adf738d9888",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "76fb8624-2053-49e0-bd37-0990145768c6",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "429a5b4c-c8df-4003-a48f-0ddb874cb45f",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3a4806c-93f2-4e0a-8632-73fc03a8fabd",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI LeftHand",
+            "id": "de0e471b-79e8-4fb8-8d15-f6171234a138",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "1223d0b5-e7d7-45b5-9bcd-e34793c10140",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "3beb55af-8ebd-4d1e-9fa6-37339a2fbb05",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerPressed",
+                    "type": "Button",
+                    "id": "2024e9bd-bdd5-44e5-8b6d-71e1305e56c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "03dc3c11-353a-4dd8-819e-2d98c6a8bae8",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b087ea3-769d-4e8e-a70c-a023010237a1",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "695e3c31-bf5c-4769-a1d5-07efae19d9d4",
+                    "path": "<XRInputV1::HP::HPReverbG2ControllerOpenXR>{LeftHand}/triggerpressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI RightHanf",
+            "id": "11cf9ddc-032e-4c07-a0e6-71c73913be5d",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "57f8dd9b-771a-419e-883e-98a90302f005",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "a486b91b-9cde-4b1b-b8b5-ae183cfcf67b",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerPressed",
+                    "type": "Button",
+                    "id": "cf5b8986-409c-49ea-9f47-50d8b2b5d9a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c1acf6a7-ac9b-47d6-851e-4669dd2595bf",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "772a4c90-d646-45f8-8600-2714ebc7c454",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b36603d-93d2-48df-a9f7-36fabbeaa534",
+                    "path": "<XRInputV1::HP::HPReverbG2ControllerOpenXR>{RightHand}/triggerpressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Reverb",
+            "bindingGroup": "Reverb",
+            "devices": [
+                {
+                    "devicePath": "<HPMixedRealityController>{LeftHand}",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
