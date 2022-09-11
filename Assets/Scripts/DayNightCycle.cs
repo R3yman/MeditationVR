@@ -141,7 +141,7 @@ private void SampleTime(){
      do{
             double rand = GetRandomNumber(-0.05, 0.05);
             target = time + rand;
-        }while(target > 0.82 || target < 0.63) ;
+        }while(target > 0.82 || target < 0.7) ;
 
         
         if(target < time){
